@@ -1,10 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(23, 23, 23);
 }
 
 .container {
-    width: fit-content;
-    height: fit-content;
+    width: 600px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -12,19 +16,29 @@ body {
 }
 
 .row {
-    width: fit-content;
-    height: fit-content;
     display: flex;
 }
 
-.box {
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+
+.options button {
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bold;
+    color: teal;
+    background-color: transparent;
     border: solid teal;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    margin: 1px;
+    border-radius: 40px;
 }
 
-.box:hover {
-    background-color: aqua;
+.options button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
