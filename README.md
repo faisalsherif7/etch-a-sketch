@@ -12,3 +12,5 @@ A browser-based sketchpad inspired by Etch-a-Sketch, built to practice DOM manip
 
 - **HTML/CSS**
 - **JavaScript**
+
+https://faisalsherif7.github.io/etch-a-sketch/
